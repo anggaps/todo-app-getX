@@ -43,6 +43,8 @@ _appbar() {
             body: Get.isDarkMode
                 ? "actvivated dark theme"
                 : "activated lisght theme");
+
+        NotifyHeler().scheduledNotification();
       },
       child: const Icon(
         Icons.nightlight_round_rounded,
